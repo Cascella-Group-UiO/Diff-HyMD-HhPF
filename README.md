@@ -1,8 +1,9 @@
-# Diff-HyMD
-∂-HyMD (read diff-HyMD) is [HyMD](https://github.com/Cascella-Group-UiO/HyMD) rewritten in [JAX](https://github.com/google/jax).
+# Diff-HyMD-HhPF
+∂-HyMD-HhPF (read diff-HyMD) is [HyMD](https://github.com/Cascella-Group-UiO/HyMD) rewritten in [JAX](https://github.com/google/jax).
+This is the Hamiltonian hybrid Particle-Field version of [∂-HyMD](https://github.com/Cascella-Group-UiO/Diff-HyMD).
 The main goal is to automatically learn force field parameters while running differentiable molecular dynamics simulations.
 
-A preprint that describes how we used ∂-HyMD to train a force field for lipids is available [here](https://chemrxiv.org/engage/chemrxiv/article-details/65fea15e9138d2316118588f).
+The paper describing ∂-HyMD-HhPF with application to train a force field for lipids is available [here](https://pubs.acs.org/doi/full/10.1021/acs.jcim.4c00564).
 
 ## Installation
 > **Note**:
@@ -15,7 +16,7 @@ A preprint that describes how we used ∂-HyMD to train a force field for lipids
 
 Clone the repo on your machine and create a virtual enviroment inside a directory `<dir>` of your choice
 ```terminal
-cd Diff-HyMD
+cd Diff-HyMD-HhPF
 python -m venv --upgrade-deps <dir>
 ```
 Then you can simply install the package with
